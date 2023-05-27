@@ -1,0 +1,75 @@
+body {
+    background-image: url(Love.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.button {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 0px;
+    font-size: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid #b90138;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: translateY(2px);
+}
+
+#B {
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+#B1 {
+    position: relative;
+    top: -150px;
+    right: 0px;
+}
+
+#B2 {
+    position: relative;
+    top: 30px;
+    right: 200px;
+}
+
+#B3 {
+    margin-top: 5px;
+}
+
+div {
+    background-color: white;
+    position: relative;
+    top: 250px;
+    width: 250px;
+    height: 170px;
+    border: 5px solid #b90138;
+    border-radius: 25px;
+}
+
+#div1 {
+    height: 250px;
+}
+
+#div2 {
+    height: 220px;
+}
+
+p {
+    font-style: italic;
+    font-size: 100%;
+}
+
+img {
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
